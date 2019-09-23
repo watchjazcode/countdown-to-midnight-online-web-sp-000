@@ -11,5 +11,5 @@ end
 
 def countdown_with_sleep(countdown)
   number = 10
-  until countdown > number + 2.seconds
+  until countdown > number + sleep 2.seconds
 end
