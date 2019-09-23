@@ -11,6 +11,5 @@ end
 
 def countdown_with_sleep(countdown)
   number = 10
-  countdown.sleep 1.seconds
   until countdown > number + 2.seconds
 end
