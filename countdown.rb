@@ -9,9 +9,9 @@ def countdown(number)
   end
 end
 
-def countdown_with_sleep(countdown)
-  countdown.sleep 5
-end
+#def countdown_with_sleep(countdown)
+  #countdown.sleep 5
+#end
 
 #time = Time.now
 #> sleep 2.seconds 
