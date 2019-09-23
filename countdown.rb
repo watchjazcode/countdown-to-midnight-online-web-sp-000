@@ -11,7 +11,8 @@ end
 
 def countdown_with_sleep(countdown)
   countdown = 10
-  countdown.sleep 1
+  countdown.sleep 1.seconds
+  until countdown == 
 end
 
 #time = Time.now
